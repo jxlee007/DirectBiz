@@ -1,7 +1,7 @@
 
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
-import { Home, Search, MapPin, User, Menu } from "lucide-react";
+import { Home, Search, MapPin, User, Users } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 interface NavigationItem {
@@ -35,9 +35,9 @@ export function BottomNavigation() {
       icon: User,
     },
     {
-      name: "More",
-      path: "/more",
-      icon: Menu,
+      name: "Community",
+      path: "/community",
+      icon: Users,
     },
   ];
   
