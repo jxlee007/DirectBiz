@@ -1,73 +1,228 @@
-# Welcome to your Lovable project
+# DirectBiz - Local Business Discovery Platform 🏪
 
-## Project info
+> **UI Prototype** designed and developed using [Lovable.dev](https://lovable.dev)
 
-**URL**: https://lovable.dev/projects/3bcd5da2-b5c3-43c7-a309-d7d9d0060832
+[![Live Demo](https://img.shields.io/badge/demo-live-success)](https://jxlee007.github.io/DirectBiz/)
+[![Built with Lovable](https://img.shields.io/badge/Built%20with-Lovable-purple)](https://lovable.dev)
+[![React](https://img.shields.io/badge/React-18.3-blue)](https://reactjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.5-blue)](https://www.typescriptlang.org/)
 
-## How can I edit this code?
+## 🎯 About This Prototype
 
-There are several ways of editing your application.
+DirectBiz is a **mobile-first UI prototype** for a local business discovery platform. This project was rapidly prototyped using **Lovable**, an AI-powered platform that transforms ideas into production-ready React applications.
 
-**Use Lovable**
+**🔗 Live Preview:** [https://jxlee007.github.io/DirectBiz/](https://jxlee007.github.io/DirectBiz/)
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/3bcd5da2-b5c3-43c7-a309-d7d9d0060832) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## ✨ What is Lovable?
 
-**Use your preferred IDE**
+[Lovable](https://lovable.dev) is an AI-powered development platform that helps you build full-stack web applications through conversational prompts. It generates clean, production-ready code with:
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- **React + TypeScript** for type-safe component development
+- **shadcn/ui** component library for beautiful, accessible UI
+- **Tailwind CSS** for rapid styling
+- **Vite** for lightning-fast development
+- **React Router** for seamless navigation
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Why Lovable for UI Prototyping?
 
-Follow these steps:
+✅ **Rapid Iteration** - Go from idea to interactive prototype in minutes  
+✅ **Production-Ready Code** - Export clean, maintainable React code  
+✅ **Component-First** - Built with reusable, accessible components  
+✅ **Responsive by Default** - Mobile-first design approach  
+✅ **Easy Customization** - Standard React patterns make it easy to extend
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 📱 Prototype Features
 
-# Step 3: Install the necessary dependencies.
-npm i
+This UI prototype showcases a complete local business discovery experience:
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+### Core Pages
+
+- **🏠 Home** - Featured businesses with search and filtering
+- **📂 Categories** - Browse businesses by category
+- **🗺️ Map View** - Location-based business discovery
+- **👤 Profile** - User profile and preferences
+- **💬 Community** - Reviews and discussions
+- **🔍 Business Detail** - Detailed business information
+- **⚙️ More** - Additional settings and options
+
+### Design Highlights
+
+- **Modern, Clean Interface** - Minimalist design with focus on usability
+- **Mobile-First Responsive** - Optimized for all screen sizes
+- **Smooth Animations** - Polished interactions and transitions
+- **Accessible Components** - Built with Radix UI primitives
+- **Dark Mode Support** - Theme switching with next-themes
+
+---
+
+## 🛠️ Tech Stack
+
+This prototype leverages modern web technologies:
+
+| Technology | Purpose |
+|------------|---------|
+| **React 18.3** | UI framework with latest features |
+| **TypeScript 5.5** | Type-safe development |
+| **Vite 5.4** | Fast build tool and dev server |
+| **Tailwind CSS 3.4** | Utility-first styling |
+| **shadcn/ui** | High-quality component library |
+| **Radix UI** | Accessible component primitives |
+| **React Router 6** | Client-side routing |
+| **Lucide React** | Beautiful icon library |
+| **React Query** | Data fetching and state management |
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js 18+ and npm
+
+### Installation
+
+```
+# Clone the repository
+git clone https://github.com/jxlee007/DirectBiz.git
+
+# Navigate to project directory
+cd DirectBiz
+
+# Install dependencies
+npm install
+
+# Start development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+The app will be available at `http://localhost:5173`
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Build for Production
 
-**Use GitHub Codespaces**
+```
+# Create optimized production build
+npm run build
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+# Preview production build locally
+npm run preview
+```
 
-## What technologies are used for this project?
+---
 
-This project is built with:
+## 📁 Project Structure
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+```
+DirectBiz/
+├── src/
+│   ├── components/     # Reusable UI components
+│   ├── pages/          # Page components (Home, Categories, etc.)
+│   ├── hooks/          # Custom React hooks
+│   ├── lib/            # Utility functions and helpers
+│   ├── types/          # TypeScript type definitions
+│   └── data/           # Mock data for prototype
+├── public/             # Static assets
+└── package.json        # Project dependencies
+```
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/3bcd5da2-b5c3-43c7-a309-d7d9d0060832) and click on Share -> Publish.
+## 🎨 Design System
 
-## Can I connect a custom domain to my Lovable project?
+The prototype uses a consistent design system powered by:
 
-Yes, you can!
+- **Color Palette** - Carefully selected for accessibility
+- **Typography** - System font stack for optimal readability
+- **Spacing** - 8px base unit for consistent layouts
+- **Components** - shadcn/ui for consistent, accessible UI
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+---
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+## 🔄 From Prototype to Production
+
+This Lovable-generated prototype provides an excellent foundation for production development:
+
+### Next Steps
+
+1. **Backend Integration** - Connect to real APIs and databases
+2. **Authentication** - Add user login and registration
+3. **State Management** - Implement Redux/Zustand for complex state
+4. **Testing** - Add unit and integration tests
+5. **Performance** - Optimize with code splitting and lazy loading
+6. **Analytics** - Integrate tracking and monitoring
+
+---
+
+## 📝 Development Notes
+
+### Using Lovable Tagger
+
+This project includes `lovable-tagger` for enhanced development experience:
+
+```
+// Automatically tags components in development mode
+import { componentTagger } from "lovable-tagger";
+
+plugins: [
+  react(),
+  mode === 'development' && componentTagger(),
+].filter(Boolean)
+```
+
+### Customization Tips
+
+- **Styling** - Modify `tailwind.config.js` for theme customization
+- **Components** - Add new shadcn/ui components with `npx shadcn-ui add [component]`
+- **Routes** - Update `App.tsx` to add new pages
+- **API Mock Data** - Located in `src/data/` directory
+
+---
+
+## 🌐 Deployment
+
+This prototype is deployed on GitHub Pages. To deploy your own:
+
+```
+# Build the project
+npm run build
+
+# Deploy to GitHub Pages
+# (Requires gh-pages package and proper configuration)
+npm run deploy
+```
+
+---
+
+## 📄 License
+
+This project is a UI prototype for demonstration purposes.
+
+---
+
+## 🙏 Acknowledgments
+
+- **Lovable.dev** - For enabling rapid UI prototyping with AI
+- **shadcn/ui** - For the beautiful component library
+- **Radix UI** - For accessible component primitives
+- **Tailwind CSS** - For utility-first styling approach
+
+---
+
+## 📧 Contact
+
+**Developer:** Jagmohan Singh Malhi  
+**GitHub:** [@jxlee007](https://github.com/jxlee007)  
+**LinkedIn:** [Jagmohan Singh Malhi](https://www.linkedin.com/in/jagmohan-singh-malhi-a67805243/)
+
+---
+
+<div align="center">
+
+**Built with ❤️ using [Lovable](https://lovable.dev)**
+
+*Transform your ideas into interactive prototypes in minutes*
+
+</div>
